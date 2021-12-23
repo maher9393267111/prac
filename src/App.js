@@ -7,7 +7,7 @@ function App() {
   const [isone,setisone] = useState('maher')
   return (
     <div className="App">
-      <h1>React practice hererrr</h1>
+      <h1>this is the </h1>
 <Context.Provider value={[isone,setisone]}>
       <ComA/>
       <ComB/>
